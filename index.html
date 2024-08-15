@@ -1,11 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><head>    
+        <link rel='stylesheet' href="style.css">
+        <title>141 Sports</title>
+    </head>
+<body>
+    <header>
+        <div class="cabecalho">
+                <img id="logoImagem" src="image/Mídia.jpg">
+                <p>sua loja de camisas oficiais</p>
+        </div>
+        <nav>
+            <ul class="categorias">
+                <li>
+                    <a href="#">Início</a>
+                </li>
+                <li>Brasileirão</li>
+                <li>Seleções</li>
+                <li>Mais vendidas</li>
+                <li>Contato</li>
+                <li>Sobre Nós</li>
+            </ul>
+        </nav>
+    </header></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0a0a0a;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .product {
+            display: inline-block;
+            width: 30%;
+            margin: 1.5%;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .product p {
+            color: #555;
+        }
+        .product button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .product button:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .slide{
+            display: -webkit-inline-box;
+        }
+        .container{
+            left: 0%;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            color: #f1e7e7;
+        }
+        header{
+            border-bottom: 1px solid rgb(245, 238, 238);
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+        }
+        
+        #logoImagem{
+            margin: 40px;
+            width: 100px;
+        }
+        .categorias{
+            display: flex;
+            gap: 10px;
+        }
+        .cabecalho{
+            display: flex;
+            align-items: baseline;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <!-- <img src="--" alt="100", height="100" > -->
+            
+            <!-- <h1>141Sports.com.b</h1> -->
+        </div>
+    </header>
     
+    <div class="container">
+    <div class="slide">
+
+        <div class="product">
+            <img src="image/image (12).png" alt="Camisa 1">
+            <h2>Camisa Holanda</h2>
+            <p>R$ 79,90</p>
+            <button>Comprar Agora</button>
+        </div>
+        
+        <div class="product">
+            <img src="image/image (1).png" alt="Camisa 2">
+            <h2>Camisa Real Madri</h2>
+            <p>R$ 89,90</p>
+            <button>Comprar Agora</button>
+        </div>
+        
+        <div class="product">
+            <img src="image/image (15).png" alt="Camisa 3">
+            <h2>Camisa Paris</h2>
+            <p>R$ 99,90</p>
+            <button>Comprar Agora</button>
+        </div>
+        <div class="product">
+            <img src="image/image (14).png" alt="Camisa 3">
+            <h2>Camisa Barcelona</h2>
+            <p>R$ 99,90</p>
+            <button>Comprar Agora</button>
+        </div>
+        <div class="product">
+            <img src="image/image (18).png" alt="Camisa 3">
+            <h2>Camisa Brasil</h2>
+            <p>R$ 99,90</p>
+            <button>Comprar Agora</button>
+        </div>
+        <div class="product">
+            <img src="image/image (19).png" alt="Camisa 3">
+            <h2>Camisa Elegante</h2>
+            <p>R$ 99,90</p>
+            <button>Comprar Agora</button>
+        </div>
+        <div class="product">
+            <img src="image/image (12).png" alt="Camisa 3">
+            <h2>Camisa Nike</h2>
+            <p>R$ 99,90</p>
+            <button>Comprar Agora</button>
+        </div>
+    </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 141sports.com.br. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
