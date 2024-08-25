@@ -3,183 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><head>    
-        <link rel='stylesheet' href="style.css">
-        <title>141 Sports</title>
-    </head>
-<body>
-    <header>
-        <div class="cabecalho">
-                <img id="logoImagem" src="image/logopng.png">
-                <p>sua loja de camisas oficiais</p>
-        </div>
-        <nav>
-            <ul class="categorias">
-                <li>
-                    <a href="#">Início</a>
-                </li>
-                <li>Brasileirão</li>
-                <li>Seleções</li>
-                <li>Mais vendidas</li>
-                <li>Contato</li>
-                <li>Sobre Nós</li>
-            </ul>
-        </nav>
-    </header></title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #0a0a0a;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-        .product {
-            display: inline-block;
-            width: 30%;
-            margin: 1.5%;
-            padding: 10px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .product img {
-            width: 100%;
-            height: auto;
-        }
-        .product h2 {
-            font-size: 1.5em;
-            margin: 10px 0;
-        }
-        .product p {
-            color: #555;
-        }
-        .product button {
-            background-color: #28a745;
-            color: #fff;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-            font-size: 1em;
-        }
-        .product button:hover {
-            background-color: #218838;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        .slide{
-            display: -webkit-inline-box;
-        }
-        .container{
-            left: 0%;
-        }
-        *{
-            margin: 0;
-            padding: 0;
-            text-decoration: none;
-            list-style: none;
-            color: #f1e7e7;
-        }
-        header{
-            border-bottom: 1px solid rgb(245, 238, 238);
-            display: flex;
-            align-items: baseline;
-            justify-content: space-between;
-        }
-        
-        #logoImagem{
-            margin: 40px;
-            width: 100px;
-        }
-        .categorias{
-            display: flex;
-            gap: 10px;
-        }
-        .cabecalho{
-            display: flex;
-            align-items: baseline;
-        }
-    </style>
+    <link rel="stylesheet" href="style/style.css"> 
+    <title>141sports.com</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <!-- <img src="--" alt="100", height="100" > -->
-            
-            <!-- <h1>141Sports.com.b</h1> -->
+            <div class="logo">
+                <a href="#">
+                    <img src="img/lgnova.png" alt="Logo 141 Sports">
+                </a>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Destaques</a></li>
+                    <li><a href="#">Seleções</a></li>
+                    <li><a href="#">Times</a></li>
+                    <li><a href="#">Ligas</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <a href="#"><img src="img/perfil.jfif" alt="Perfil" class="icon"></a>
+                <a href="#"><img src="img/carrinho.png" alt="Carrinho" class="icon"></a>
+            </div>
         </div>
     </header>
-    
-    <div class="container">
-    <div class="slide">
+    <main> <!--baner principal-->
+        <section class="banner">
+            <img src="img/storepalmeiras.gif" alt="Banner Palmeiras" width="100%" height="auto">
+        </section>
 
-        <div class="product">
-            <img src="image/image (12).png" alt="Camisa 1">
-            <h2>Camisa Holanda</h2>
-            <p>R$ 79,90</p>
-            <button>Comprar Agora</button>
-        </div>
-        
-        <div class="product">
-            <img src="image/image (1).png" alt="Camisa 2">
-            <h2>Camisa Real Madri</h2>
-            <p>R$ 89,90</p>
-            <button>Comprar Agora</button>
-        </div>
-        
-        <div class="product">
-            <img src="image/image (15).png" alt="Camisa 3">
-            <h2>Camisa Paris</h2>
-            <p>R$ 99,90</p>
-            <button>Comprar Agora</button>
-        </div>
-        <div class="product">
-            <img src="image/image (14).png" alt="Camisa 3">
-            <h2>Camisa Barcelona</h2>
-            <p>R$ 99,90</p>
-            <button>Comprar Agora</button>
-        </div>
-        <div class="product">
-            <img src="image/image (18).png" alt="Camisa 3">
-            <h2>Camisa Brasil</h2>
-            <p>R$ 99,90</p>
-            <button>Comprar Agora</button>
-        </div>
-        <div class="product">
-            <img src="image/image (19).png" alt="Camisa 3">
-            <h2>Camisa Elegante</h2>
-            <p>R$ 99,90</p>
-            <button>Comprar Agora</button>
-        </div>
-        <div class="product">
-            <img src="image/image (12).png" alt="Camisa 3">
-            <h2>Camisa Nike</h2>
-            <p>R$ 99,90</p>
-            <button>Comprar Agora</button>
-        </div>
+        <section class="produtos">
+            <h2>Produtos em Destaque</h2>
+            <div class="lista-produtos">
+                <!-- Produto 1 -->
+                <div class="produto">
+                    <img src="img/botafogo.png" alt="Camisa botafogo">
+                    <h3>Botafogo</h3>
+                    <p>R$ 99,99</p>
+                    <a href="#">Comprar</a>
+                </div>
+
+                <!-- Produto 2 -->
+                <div class="produto">
+                    <img src="img/santos.png" alt="SAntos">
+                    <h3>Santos</h3>
+                    <p>R$ 99,99</p>
+                    <a href="#">Comprar</a>
+                </div>
+
+                <!-- Produto 3 -->
+                <div class="produto">
+                    <img src="img/internacional.png" alt="Inter">
+                    <h3>Internacional</h3>
+                    <p>R$ 99,99</p>
+                    <a href="#">Comprar</a>
+                </div>
+
+                <!-- Produto 4 -->
+                <div class="produto">
+                    <img src="img/argentina.png" alt="Argentina">
+                    <h3>Argentina</h3>
+                    <p>R$ 99,99</p>
+                    <a href="#">Comprar</a>
+                </div>
+
+                <!-- Outros produtos -->
+                <div class="produto">
+                    <img src="img/saopaulo.png" alt="São Paulo">
+                    <h3>São Paulo</h3>
+                    <p>R$ 99,99</p>
+                    <a href="#">Comprar</a>
+                </div>
+                <div class="produto">
+                    <img src="img/image (28).png" alt="Flamengo">
+                    <h3>Flamengo</h3>
+                    <p>R$ 99,99</p>
+                    <a href="#">Comprar</a>
+                </div>
+                <div class="produto">
+                    <img src="img/alemanha.png" alt="alemanha">
+                    <h3>Alemanha</h3>
+                    <p>R$ 99,99</p>
+                    <a href="#">Comprar</a>
+                </div>
+                <div class="produto">
+                    <img src="img/atleticomineiro.png" alt="Atletico mineiro">
+                    <h3>Atletico Mineiro</h3>
+                    <p>R$ 99,99</p>
+                    <a href="#">Comprar</a>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <div class="banner-footer">
+        <img src="img/0d017274-dddc-4105-8980-f9ce629832ee___61d91ca79674364e0bde7c3aadf7663e.webp" width="100%" height="auto" alt="Banner Footer">
     </div>
-    </div>
-    
+    <p>&copy;</p>
+    <ul class="redes-sociais">
     <footer>
-        <p>&copy; 141sports.com.br. Todos os direitos reservados.</p>
+        <div class="banner-footer">
+            <img src="img/Flamengo Banner - MANTOS (1).png" width="100%" height="auto" alt="Banner Footer">
+        </div>
+        <p>&copy;</p>
+        <ul class="redes-sociais">
+            <li><a href="#">Times da Europa</a></li>
+            
+           
+        <div class="banner-footer">
+            <img src="img/carrossel-camisas-clubes.webp" width="100%" height="auto" alt="Banner Footer">
+        </div>
+        <p>&copy; 141sports.com.br 2024  - Todos os direitos reservados</p>
+        <ul class="redes-sociais">
+            <li><a href="#"><img src="img/logo-facebook.png" width="50" height="50" alt=""></a></li>
+            <li><a href="#"><img src="img/logoinsta.avif" width="50" height="50" alt=""></a></li>
+            <li><a href="#"><img src="img/logoX.avif" width="50" height="50" alt=""></a></li>
+        </ul>
     </footer>
 </body>
 </html>
